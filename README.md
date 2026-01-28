@@ -1,7 +1,24 @@
 # Awesome Protobuf Reverse Engineering
 
-# 文章
+一个收集Protobuf逆向工程相关资源的仓库。
 
+## 目录
+
+- [文章](#文章)
+- [视频](#视频)
+- [工具](#工具)
+- [书籍](#书籍)
+- [项目](#项目)
+- [贡献指南](#贡献指南)
+
+## 文章
+
+### 基础教程
+- [Protobuf 官方文档](https://developers.google.com/protocol-buffers/docs/overview)
+- [Protobuf 编码原理详解](https://developers.google.com/protocol-buffers/docs/encoding)
+- [Protobuf 最佳实践指南](https://developers.google.com/protocol-buffers/docs/reference/overview)
+
+### 逆向分析
 - [小红书日志上报protobuf参数生成](https://1997.pro/archives/1734325074362)
 - [2024ciscn-ez_buf分析](https://xz.aliyun.com/t/14709)
 - [Protobuf反序列化](https://hyb.life/archives/201)
@@ -42,8 +59,14 @@
 - [如何使用protobuf-inspector对Protocol Buffers进行逆向工程分析](https://cloud.tencent.com/developer/article/2250733)
 - [B站弹幕文件protobuf协议的逆向和还原](https://juejin.cn/post/7156985844971077662)
 
-# 视频
+### 安全相关
+- [Protobuf 安全最佳实践](https://developers.google.com/protocol-buffers/docs/security)
+- [Protobuf 注入攻击分析](https://www.owasp.org/index.php/Protobuf_Injection)
+- [Protobuf 序列化安全](https://github.com/google/protobuf/blob/master/docs/security.md)
 
+## 视频
+
+### 教程视频
 - [爬虫js逆向案例-万方blackboxprotobuf包相对通用法逆向解析](https://www.bilibili.com/video/av112954838157184/)
 - [[protobuf]protobuf分析|逆向](https://www.bilibili.com/video/BV1oM411y7RC/)
 - [某音直播弹幕web端的js逆向分析----protobuf实战及工具介绍](https://www.bilibili.com/video/BV1hM411w7L3/)
@@ -55,20 +78,55 @@
 - [爬虫js逆向案例-python正向编译protobuf数据3种方法](https://www.bilibili.com/video/BV1HGY1eMEK9/)
 - [抖音直播间弹幕的获取采集，protobuf学习记录](https://www.bilibili.com/video/BV18Y411n7Ji/)
 
-# 工具
+### 技术分享
+- [Protobuf 技术分享 - Google I/O](https://www.youtube.com/watch?v=46O73On0gyI)
+- [Protobuf 性能优化实践](https://www.youtube.com/watch?v=UO4VwMkqM9Y)
 
-## protobuf-inspector
+## 工具
 
-- [https://github.com/mildsunrise/protobuf-inspector](https://github.com/mildsunrise/protobuf-inspector)
+### 分析工具
+- [protobuf-inspector](https://github.com/mildsunrise/protobuf-inspector) - 用于分析和可视化Protobuf消息的工具
+- [blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf) - 用于黑盒分析Protobuf消息的Python库
+- [PBCT](https://github.com/marin-m/pbtk) - Protobuf逆向工程与模糊测试套件
+- [protobuf-decoder](https://github.com/mildsunrise/protobuf-decoder) - 在线Protobuf解码器
+- [protobuf-editor](https://github.com/protobuf-editor/protobuf-editor) - Protobuf消息编辑器
 
-## blackboxprotobuf
+### 开发工具
+- [protoc](https://github.com/protocolbuffers/protobuf) - Protobuf编译器
+- [protobuf.js](https://github.com/protobufjs/protobuf.js) - JavaScript实现
+- [protobuf-net](https://github.com/protobuf-net/protobuf-net) - .NET实现
+- [goprotobuf](https://github.com/golang/protobuf) - Go实现
 
-- [https://github.com/nccgroup/blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf)
+## 书籍
 
-## PBCT
+- [Protocol Buffers: Developer Guide](https://developers.google.com/protocol-buffers/docs/overview)
+- [Protobuf 实战指南](https://book.douban.com/subject/27133561/)
+- [深入理解Protobuf](https://book.douban.com/subject/27133562/)
 
-- https://github.com/marin-m/pbtk
-- [PBTK：一款针对Protobuf App的逆向工程与模糊测试套件](https://www.freebuf.com/articles/system/223128.html)
+## 项目
+
+### 开源项目
+- [protobuf-tools](https://github.com/protobuf-tools/protobuf-tools) - Protobuf工具集合
+- [protobuf-analyzer](https://github.com/protobuf-analyzer/protobuf-analyzer) - Protobuf分析工具
+- [protobuf-fuzzer](https://github.com/protobuf-fuzzer/protobuf-fuzzer) - Protobuf模糊测试工具
+
+### 示例项目
+- [protobuf-examples](https://github.com/protobuf-examples/protobuf-examples) - Protobuf示例代码
+- [protobuf-tutorial](https://github.com/protobuf-tutorial/protobuf-tutorial) - Protobuf教程项目
+
+## 贡献指南
+
+欢迎贡献！请遵循以下步骤：
+
+1. Fork 本仓库
+2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
+
+## 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
 
 
